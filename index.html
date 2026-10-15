@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya | Aditya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#beranda">Profil<span>Saya.</span></a>
+      <div class="nav-links">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#keahlian">Keahlian</a>
+      </div>
+      <button id="themeButton" class="theme-button" type="button" aria-label="Ganti tema">🌙 Tema</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">HALO, SELAMAT DATANG!</p>
+        <h1>Hai, saya <span>Aditya</span></h1>
+        <h2>Mahasiswa Teknik Informatika</h2>
+        <p id="introText">Saya tertarik pada dunia teknologi, pemrograman, dan pengembangan website.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#tentang">Kenali Saya</a>
+          <button id="textButton" class="button secondary" type="button">Ubah Teks</button>
+        </div>
+      </div>
+      <div class="profile-art" aria-label="Ilustrasi profil">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="avatar">A</div>
+        <span class="floating-tag tag-one">HTML</span>
+        <span class="floating-tag tag-two">CSS</span>
+        <span class="floating-tag tag-three">JS</span>
+      </div>
+    </section>
+
+    <section id="tentang" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">TENTANG SAYA</p>
+        <h2>Kenali saya lebih dekat</h2>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">👨‍💻</div>
+        <div>
+          <h3>Profil Singkat</h3>
+          <p>Saya Aditya, mahasiswa S1 Teknik Informatika di Universitas Dian Nuswantoro (UDINUS). Saya sedang mempelajari dasar-dasar pengembangan web dan ingin terus meningkatkan kemampuan di bidang teknologi.</p>
+          <div class="info-grid">
+            <p><strong>Nama</strong><br>Aditya</p>
+            <p><strong>Program Studi</strong><br>Teknik Informatika</p>
+            <p><strong>Kampus</strong><br>Universitas Dian Nuswantoro</p>
+            <p><strong>Minat</strong><br>Web Development dan IoT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section skills-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">YANG SEDANG DIPELAJARI</p>
+          <h2>Minat dan keahlian</h2>
+          <p>Beberapa bidang yang ingin saya kembangkan.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="skill-icon">🌐</div><h3>HTML</h3><p>Menyusun struktur halaman website dengan rapi.</p></article>
+          <article class="skill-card"><div class="skill-icon">🎨</div><h3>CSS</h3><p>Mengatur warna, tata letak, dan tampilan responsif.</p></article>
+          <article class="skill-card"><div class="skill-icon">⚡</div><h3>JavaScript</h3><p>Menambahkan interaksi sederhana pada website.</p></article>
+          <article class="skill-card"><div class="skill-icon">🔌</div><h3>Internet of Things</h3><p>Mengenal perangkat dan komunikasi data IoT.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Profil Saya — Dibuat dengan HTML, CSS, dan JavaScript.</p>
+      <a href="#beranda">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
